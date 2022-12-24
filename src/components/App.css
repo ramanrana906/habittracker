@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.image-Home{
+ 
+  margin-top: 3rem;
+  width: 30%;
+
+}
+
+.image-Home img{
+  height: 470px;
+  width:  300px;
+  margin-left: 2rem;
+}
+
+.footer{
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+}
+
+.home-container{
+  display: flex;
+  margin-bottom: 2rem;
+ 
+}
+
+.habit-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ text-align: center;
+  width: 40%;
+  margin-top: 3rem;
+  border: 2px solid black;
+
+}
+
+.add-habit-btn{
+  
+  position: relative;
+  top:200px;
+  margin-left:10em;
+}
+
+.add-habit-btn button{
+  
+  height: 70px;
+  padding-top: 10px;
+
+}
+
+.add-habit-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 3rem;
+
+
+
+}
+
+
+.habitUndetailed{
+  display: flex !important;
+  
+}
+.habitUndetailed button{
+ margin: 5px;  
+}
+.habit-detailed{
+  text-align: center;
+}
+
+.daysofweek{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.days{
+  padding: 10px;
+  border:2px solid black;
+  margin: 10px;
+}
+
+.habit-marker{
+  border:2px solid black;
+  margin: 2rem;
+  text-align: center;
+}
+
+/* .nullm{
+
+} */
+
+.truem{
+background-color: green;
+}
+
+.falsem{
+background-color: red;
+} 
+
+.individual button{
+
+  margin: 5px;
+
+}
