@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Created USing React Redux as State Managment Tool, and use of React Router  Add Routes To The Application.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
